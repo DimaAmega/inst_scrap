@@ -79,7 +79,7 @@
     while (true) {
       try {
         document.querySelector("._6CZji").click();
-        await sleep(500);
+        await sleep(700);
         node_imgs = document.querySelectorAll(".ZyFrc .KL4Bh img");
         links.push(node_imgs[node_imgs.length - 1].getAttribute("src"));
       } catch (e) {
@@ -103,7 +103,7 @@
     ];
 
     async function wait_selectors(selectors) {
-      await sleep(100);
+      await sleep(200);
       while (true) {
         for (s of selectors) {
           try {
@@ -111,8 +111,8 @@
             //   if (document.querySelector(s)) return;
           } catch (error) {}
         }
-        console.log("sleep 100");
-        await sleep(100);
+        console.log("sleep 200");
+        await sleep(200);
       }
     }
 
@@ -189,7 +189,7 @@
           console.log("SCROLL");
           window.scrollTo(0, scroll_position);
           scroll_position += scroll_step;
-          await sleep(800);
+          await sleep(1000);
           console.log("TRY AGAIN ", link);
           if (document.querySelector(`a[href='${link}']`)) break;
         }
