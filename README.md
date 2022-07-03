@@ -5,11 +5,11 @@ Scrap all (almost) posts from your instagram
 Конечно это неопттимальный код c багами (ведь он писался за пару часов), тем не менее +- работает если у вас хорошее интернет соединение
 
 ## Шаг 1
-Залогиньтесь в [web](https://www.instagram.com/) версии instagram с компьютера
+Зайдите в [web](https://www.instagram.com/) версии instagram с компьютера
 ## Шаг 2
 Скопируйте содержимое [скрипта](./main.js) в буфер обмена, для удобства можете воспользоваться кнопкой `Raw`
 ## Шаг 3
-Перейдите в свой профиль, при этом ссылка должна быть `https://www.instagram.com/<your-nickname>`
+Перейдите в интересующий вас профиль, при этом ссылка должна быть `https://www.instagram.com/<nickname-you-interested>`
 ## Шаг 4
 Откройте инструменты разработчика, а именно вкладку [Console](https://developer.chrome.com/docs/devtools/console/)
 ## Шаг 5
